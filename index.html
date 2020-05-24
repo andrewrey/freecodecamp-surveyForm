@@ -8,20 +8,20 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <header>
-        <h1 id="title">The form of Forms</h1>
-    </header>
-    <main>
+    <main id="main">
+        <header>
+            <h1 id="title">The form of Forms</h1>
+        </header>
         <p id="description">This is my form project for FreeCodeCamp. This from asks about your feelings towards Covid-19</p>
         <form id="survey-form">
-            <label for="name-label">Name:
+            <label for="name" id="name-label">Name:
                 <input type="text" id="name" name="name" required placeholder="Enter Name">
             </label>
-            <label for="email">Email:
+            <label id="email-label" for="email">Email:
                 <input type="email" id="email" name="email" required placeholder="Enter Email">
             </label>   
-            <label for="number-label">Number of weeks working from home:
-                <input type="number" id="" name="number_of_weeks_at_home" placeholder="Enter number of days at home" min='5' max="60">
+            <label id="number-label" for="number">Number of weeks working from home:
+                <input type="number" id="number" name="number_of_weeks_at_home" placeholder="Enter number of days at home" min='5' max="60">
             </label>
             <label for="dropdown">Select Country of Residence
                 <select id="dropdown" name="residence" >
@@ -51,9 +51,9 @@
             </fieldset>
             <textarea placeholder="Let us know what has been the hardest thing for you?"></textarea>
             
-            <button type="submit">Submit</button>
+            <button id="submit" type="submit">Submit</button>
         </form>
     </main>
-    
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
 </body>
 </html>
