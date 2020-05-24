@@ -52,3 +52,9 @@ button{
     box-shadow: 2px 2px 8px black;
     border-radius: 15px;
 }
+
+select{
+    margin-top: 10px;
+    display: block;
+    width: 40%;
+}
