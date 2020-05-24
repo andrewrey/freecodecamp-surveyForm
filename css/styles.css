@@ -28,7 +28,9 @@ form{
     border: 1px solid black;
 }
 
-input{
+input[type=text],
+input[type=email],
+input[type=number]{
     margin: 10px auto;
     display: block;
     padding: 7px 0;
@@ -55,6 +57,25 @@ button{
 
 select{
     margin-top: 10px;
+    margin-bottom: 15px;
     display: block;
     width: 40%;
+}
+
+#group1,
+#group2{
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+input[type=radio],
+input[type=checkbox]{
+    margin-right: 50px;
+}
+
+textarea{
+    width: 80%;
+    margin: 20px auto;
 }
