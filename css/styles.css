@@ -3,3 +3,18 @@
 *{
     box-sizing: border-box;
 }
+
+header{
+    height: 200px;
+    background-image:url("../img/architecture-buildings-city-fog-373965.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+
+h1{
+    margin: 0;
+    padding-top: 25px;
+}
