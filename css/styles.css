@@ -13,6 +13,13 @@ header{
     text-align: center;
     
 }
+main{
+    background-color: cornflowerblue;
+}
+p{
+    text-align: center;
+    font-size: 1.5rem;
+}
 
 h1{
     margin: 0;
@@ -20,7 +27,8 @@ h1{
 }
 
 form{
-
+    padding-top: 15px;
+    background-color: crimson;
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -78,4 +86,18 @@ input[type=checkbox]{
 textarea{
     width: 80%;
     margin: 20px auto;
+}
+
+@media (max-width: 700px){
+    .questions{
+        display: block;
+        text-align: left;
+        margin-left: 25px;
+    }
+    
+}
+@media (min-width: 701px){
+    .questions{
+        display: inline-block;
+    }
 }
